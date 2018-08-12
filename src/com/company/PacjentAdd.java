@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class PacjentAdd implements narzedzia{
 
-    Queue<Pacjenci> listaPacjentow = new LinkedList();  //zbiornik na pacientow
+    List<Pacjenci> listaPacjentow = new ArrayList<Pacjenci>();  //zbiornik na pacientow
     public void ListaPacjentow(Queue<Pacjenci> listaPacjentow) {
     }
 

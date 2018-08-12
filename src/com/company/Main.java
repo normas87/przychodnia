@@ -36,7 +36,7 @@ public class Main implements narzedzia{
 
                     case 4:
 
-                        pacjentAdd.wyswietlListePacjentow(pacjent);
+pacjentAdd.wyswietlListePacjentow(pacjent);
 
                         break;
 
