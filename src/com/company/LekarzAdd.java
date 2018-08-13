@@ -8,7 +8,7 @@ public class LekarzAdd implements narzedzia {
     Queue<Lekarze> listaLekarzyDermatologow = new LinkedList();
     public void ListaLekarzyDermatologow(Queue<Lekarze> listaLekarzyDermatologow) {} //pusty zbiornik na lekarzy dermatologów
     public void dodajLekarzaDermatologa(Lekarze lekarze) { //metoda dodawania dermatologa do powyższej listy
-
+        Pacjenci pacjent = new Pacjenci("", "");
         System.out.print("Podaj imię nowego dermatologa: ");
         lekarzDermatolog.setImie(odczyt.nextLine());
 
@@ -28,7 +28,7 @@ public class LekarzAdd implements narzedzia {
     Queue<Lekarze> listaLekarzyChirurgow = new LinkedList();
     public void ListaLekarzyChirurgow(Queue<Lekarze> listaLekarzyChirurgw) {} //pusty zbiornik na lekarzy Chirurgow
     public void dodajLekarzaChirurga(Lekarze lekarze) {
-
+        Pacjenci pacjent = new Pacjenci("", "");
         System.out.print("Podaj imię nowego hirurga: ");
         lekarzChirurg.setImie(odczyt.nextLine());
 
@@ -47,7 +47,7 @@ public class LekarzAdd implements narzedzia {
     Queue<Lekarze> listaLekarzyRodzinnych = new LinkedList();
     public void ListaLekarzyRodzinnych(Queue<Lekarze> listaLekarzyRodzinnych) {} //pusty zbiornik na lekarzy rodzinnych
     public void dodajLekarzaRodzinnego(Lekarze lekarze) {
-
+        Pacjenci pacjent = new Pacjenci("", "");
         System.out.print("Podaj imię nowego lekarza rodzinnego: ");
         lekarzChirurg.setImie(odczyt.nextLine());
 

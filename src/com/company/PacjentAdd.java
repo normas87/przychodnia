@@ -10,7 +10,7 @@ public class PacjentAdd implements narzedzia{
     public void ListaPacjentow(Queue<Pacjenci> listaPacjentow) {
     }
 
-    public void dodajPacjenta(Pacjenci pacjenci) {
+    public void dodajPacjenta(Pacjenci pacjent) {
 
         System.out.print("Podaj imię nowego pacjenta: ");
         pacjent.setImie(odczyt.nextLine());
@@ -18,7 +18,7 @@ public class PacjentAdd implements narzedzia{
         System.out.print("Podaj jego nazwisko: ");
         pacjent.setNazwisko(odczyt.nextLine());
 
-        listaPacjentow.add(pacjenci);
+        listaPacjentow.add(pacjent);
         System.out.println(" ");
         System.out.println("++++++++ Dodano pacjenta ++++++++");
         System.out.println("Pacjent: " + pacjent.getImie() + " " + pacjent.getNazwisko() + " " );

@@ -3,6 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main implements narzedzia{
+    private static PacjentAdd pacjentAdd = new PacjentAdd();
 
     public static void main(String[] args) {
 
@@ -15,12 +16,13 @@ public class Main implements narzedzia{
             boolean exit = false;
             int wyborMenu;
             do {
+                Pacjenci pacjent = new Pacjenci("", "");
                 System.out.print("Wpisz z klawiatury co robimy i zatwierdź enterem: ");
                 wyborMenu = odczyt.nextInt();
                 switch (wyborMenu) {
                     case 1:
                         System.out.println("Wybrano 1   Dodajemy nowego pacjenta...");
-                    pacjentAdd.dodajPacjenta(pacjent);
+                        pacjentAdd.dodajPacjenta(pacjent);
                         menuGlowne.menuGlowne();
                         break;
                     case 2:
