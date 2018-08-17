@@ -37,7 +37,7 @@ public class Main implements narzedzia{
                         break;
 
                     case 4:
-
+                        //TODO używaj formatowania kodu
 pacjentAdd.wyswietlListePacjentow(pacjent);
 
                         break;

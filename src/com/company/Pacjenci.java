@@ -17,6 +17,8 @@ public class Pacjenci {
     public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
     }
+
+    //TODO konstruktor powinien być pod deklaracją pól w klasie
     public Pacjenci(String imie, String nazwisko) {
         this.imie = imie;
         this.nazwisko = nazwisko;

@@ -1,7 +1,9 @@
 package com.company;
 
+
 public class MenuGlowne
 {
+    //TODO ta metoda może być statyczna
     public void menuGlowne(){
         System.out.println("===============Menu=============== ");
         System.out.println("1 = Dodaj nowego pacjenta");

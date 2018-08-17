@@ -30,6 +30,7 @@ public class Lekarze {
         this.specjalizacja = specjalizacja;
     }
 
+    //TODO konstruktor powinien być pod deklaracją pól w klasie
     public Lekarze(String imie, String nazwisko, SpecjalizacjeLekarzy specjalizacja) {
         this.imie = imie;
         this.nazwisko = nazwisko;

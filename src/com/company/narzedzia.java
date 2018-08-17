@@ -1,6 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
+//TODO takich rzeczy nie trzymamy w interface
 public interface narzedzia {
     Scanner odczyt = new Scanner(System.in); //pobierania danych z klawiatury
      //inicjalizacja zawartosci klasy PracownikAdd bo tam jest metoda dodająca usera

@@ -13,6 +13,7 @@ public class Menu02 implements narzedzia {
         System.out.println("0 = Powrót do menu głównego");
 
         Scanner odczyt = new Scanner(System.in);
+        //TODO po co jest ten for ?
         for (int i = 1; i <= 3; i++)
             System.out.print("");
         boolean exit = false;
